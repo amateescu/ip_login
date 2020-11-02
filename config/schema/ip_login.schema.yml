@@ -4,6 +4,9 @@ ip_login.settings:
   type: config_object
   label: 'IP login settings'
   mapping:
-    address_field:
-      type: string
-      label: 'IP address field for logging in'
+    auto_login:
+      type: boolean
+      label: 'Login automatically'
+    form_login:
+      type: boolean
+      label: 'Show link on the user login form'
